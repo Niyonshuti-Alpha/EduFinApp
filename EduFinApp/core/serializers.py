@@ -5,8 +5,3 @@ class TestingSerializer(serializers.ModelSerializer):
     class Meta:
         model = Testing
         fields = '__all__'
-
-class TestingNameSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Testing
-        fields = ['id', 'name']
